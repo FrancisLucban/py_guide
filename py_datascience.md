@@ -87,7 +87,7 @@ plt.bar(['A','B','C'], [10,20,15])
 # Histogram
 plt.hist([1,2,2,3,3,3,4,4,5], bins=5)
 ```
-
+> [!NOTE]
 > [MORE MATPLOTLIB INFO HERE](datascience_additional/matplotlib_more.md)
 
 
@@ -143,7 +143,7 @@ merged = pd.merge(df1, df2, on="id", how="inner")
 # Pivot table
 pd.pivot_table(df, values="sales", index="region", columns="year", aggfunc="sum")
 ```
-
+> [!NOTE]
 > [MORE USEFUL BOILERPLATES HERE](datascience_additional/boilerplates_more.md)
 
 ## 📊 Sample Practical Pipeline 
