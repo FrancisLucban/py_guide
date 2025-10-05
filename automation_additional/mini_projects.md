@@ -3,7 +3,9 @@
 ## 📨 1. Auto Email Sender
 
 **Goal:** Automatically send daily or weekly reports.
+
 **Libraries:** `smtplib`, `email`, `schedule` (or Task Scheduler/Crontab).
+
 **Key Steps:**
 
 ```py
@@ -25,7 +27,9 @@ Automate it daily using `schedule` or an OS scheduler.
 ## 🌐 2. Website Data Scraper
 
 **Goal:** Collect titles or prices from an e-commerce page.
-**Libraries:** requests, BeautifulSoup.
+
+**Libraries:** `requests`, `BeautifulSoup`
+
 **Key Steps:**
 
 ```py
@@ -44,7 +48,9 @@ Export results to CSV for analysis.
 ## 🤖 3. Auto Website Login & Form Filler
 
 **Goal:** Log in and submit a form automatically.
+
 **Libraries:** `selenium`
+
 **Key Steps:**
 
 ```py
@@ -62,7 +68,9 @@ Can be extended to scrape or download data after login.
 ## 🗂️ 4. Automatic File Organizer
 
 **Goal:** Sort downloaded files by extension.
-**Libraries:** os, shutil.
+
+**Libraries:** `os`, `shutil`
+
 **Key Steps:**
 
 ```py
@@ -85,7 +93,9 @@ Schedule it to run daily using Task Scheduler or crontab.
 ## 🖱️ 5. Desktop Repetitive Task Bot
 
 **Goal:** Automate GUI actions like clicking a button or typing text.
+
 **Libraries:** `pyautogui`
+
 **Key Steps:**
 
 ```py
@@ -101,7 +111,9 @@ Can be used for repetitive desktop inputs or app testing.
 ## 📅 6. Automated Script Runner
 
 **Goal:** Run a task periodically within the script.
+
 **Libraries:** `schedule`, `time`
+
 **Key Steps:**
 
 ```py
@@ -121,7 +133,9 @@ Alternative to using Task Scheduler or crontab.
 ## 📂 7. System Maintenance Script
 
 **Goal:** Clean temp folders, backup logs, and free up disk space.
+
 **Libraries:** `os`, `shutil`, `datetime`
+
 **Key Steps:**
 
 ```py
