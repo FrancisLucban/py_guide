@@ -148,3 +148,6 @@ Automation with Python revolves around:
 - OS-level scripting (`os`, `subprocess`)
 
 Python acts as your digital assistant — handling everything from browser clicks to file management and scheduled jobs.
+
+> [!NOTE]
+> [Click Here for Project Examples!](automation_additional/mini_projects.md)
