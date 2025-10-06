@@ -5,6 +5,12 @@
 - **Automation** - letting a computer handle repetitive tasks for you.
 - **Scripting** - writing short programs that automate simple processes (e.g., renaming files, scraping data, sending emails).
 
+### 🔎 Potential Automation Characteristics
+
+1. Repetitive Tasks
+2. High Frequency Tasks
+3. Tasks prone to error
+
 ## 🧠 Core Concepts
 
 ### 1. Scripting Basics
@@ -15,6 +21,16 @@ Before diving into automation, understand:
 - **OS operations**: using `os`, `shutil`, `pathlib` to move, rename, or delete files.
 - **Subprocesses**: `subprocess` module to run terminal commands.
 - **Error handling**: use `try-except` to prevent automation crashes.
+
+**Module References**
+
+| **Modules**  | **Links**                               |
+| -------------| --------------------------------------- |
+| `os`         | [guide](automation_additional/os_guide.md) |
+| `shutil`     | [guide](automation_additional/shutil_guide.md) |
+| `glob`       | [guide](automation_additional/shutil_guide.md) |
+
+---
 
 ## ⚙️ Task Scheduling Tools
 ### ⏱️ Task Scheduler (Windows)
