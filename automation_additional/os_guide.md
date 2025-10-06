@@ -37,6 +37,29 @@ path.getsize("file.txt")              # → returns size in bytes
 path.abspath("file.txt")              # → full path
 ```
 
+### 🧭 Determining the Script’s Base Directory
+
+When writing automation scripts, it’s common to need the folder **where the script itself is located**, not where it’s executed from.
+This is done using:
+
+```py
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+```
+
+✅ **Explanation:**
+
+- **__file__** → gives the current script’s filename (e.g., `script.py`).
+- **os.path.abspath(__file__)** → converts it to an absolute path (e.g., `C:/Projects/Auto/script.py`).
+- **os.path.dirname(...)** → extracts the directory path (e.g., `C:/Projects/Auto`).
+
+So, `BASE_DIR` points to the script’s directory, allowing you to safely reference files and subfolders like:
+
+```py
+data_path = os.path.join(BASE_DIR, "data", "file.csv")
+```
+
+This ensures your file paths work **no matter where the script is run from** — especially useful when packaging or compiling Python scripts.
+
 ## ⚙️ Running System Commands
 
 ```py
