@@ -151,3 +151,4 @@ Python acts as your digital assistant — handling everything from browser click
 
 > [!NOTE]
 > [Click Here for Project Examples!](automation_additional/mini_projects.md)
+> [Click Here for more info on RPA!](automation_additional/rpa.md)
