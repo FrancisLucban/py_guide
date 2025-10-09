@@ -88,6 +88,9 @@ titles = [t.text for t in soup.find_all("h2")]
 ```
 - Used for **web scraping static pages**.
 
+> [!NOTE]
+> [Click Here for More bs4 Info!](automation_additional/bs4_guide.md)
+
 ### 🧠 Selenium
 
 - Automates web browsers — simulates clicks, typing, form submissions, etc.
