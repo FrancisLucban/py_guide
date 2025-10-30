@@ -210,6 +210,17 @@ get_value = [v for k, v in student_grades.items() if v == input_grade]
 # Membership get key
 get_key_2 = [k for k, v in student_grades.items() if input_grade in v] 
 
+# Sort by Keys 
+sort_key = dict(sorted(student_grades.items())) # Ascending
+sort_key_desc = dict(sorted(student_grades.items(), reverse=True)) # Descending
+
+# Sort by Values
+sort_values = dict(sorted(student_grades.items(), key=lambda item: item[1])) # Ascending
+sort_values_desc = dict(sorted(student_grades.items(), key=lambda item: item[1]. reverse=True)) # Descending
+
+# Custom Order based on a List of Keys
+custom_order = ["Bob", "Charlie", "Alice"]
+custom_order_dict = {k: student_grades[k] for k in custom_order if k in student_grades}
 
 ```
 
